@@ -1,3 +1,77 @@
+const PORs24 = [
+  //update socials
+  {
+    Timestamp: '2022-08-18T07:19:21.069Z',
+    email: 'f20220507@hyderabad.bits-pilani.ac.in',
+    name: 'Akshay Arjun',
+    picture: '/static/members/akshay2.png',
+    github: 'https://github.com/Divyateja04',
+    linkedin: 'https://www.linkedin.com/in/divyateja-pasupuleti/',
+    facebook: 'https://www.facebook.com/divyateja.pasupuleti.7/',
+    description: 'President',
+  },
+  {
+    Timestamp: '2022-08-18T07:52:32.778Z',
+    email: 'f20221736@hyderabad.bits-pilani.ac.in',
+    name: 'T Karan Balakumar',
+    picture: '/static/members/karan.jpg',
+    github: 'https://github.com/adityagupta1121',
+    linkedin: 'https://www.linkedin.com/in/aditya-gupta-994680229/',
+    facebook: 'https://www.facebook.com/profile.php?id=100076187603468',
+    description: 'Secretary',
+  },
+  {
+    Timestamp: '2022-08-18T07:58:01.041Z',
+    email: 'f20220053@hyderabad.bits-pilani.ac.in',
+    name: 'Hemanth Karthikeya Ganti',
+    picture: '/static/members/hemanth.jpeg',
+    github: 'https://github.com/HemanthK-12',
+    linkedin: 'https://www.linkedin.com/in/shaurya-garg-988675202/',
+    facebook: 'https://www.facebook.com/shaurya.garg.7121',
+    description: 'Secretary',
+  },
+  {
+    Timestamp: '2022-08-18T07:19:21.069Z',
+    email: 'f20220507@hyderabad.bits-pilani.ac.in',
+    name: 'Karan Nair',
+    picture: '/static/members/karannair.jpg',
+    github: 'https://github.com/Divyateja04',
+    linkedin: 'https://www.linkedin.com/in/divyateja-pasupuleti/',
+    facebook: 'https://www.facebook.com/divyateja.pasupuleti.7/',
+    description: 'Joint Secretary',
+  },
+  {
+    Timestamp: '2022-08-18T08:12:37.837Z',
+    email: 'f20220447@hyderabad.bits-pilani.ac.in',
+    name: 'Arjun',
+    picture: '/static/members/arjunM.png',
+    github: 'https://github.com/UsErNaMeIsUnAvAiLaBleF',
+    linkedin: 'https://in.linkedin.com/in/adithyashailender-umesh-2ab877228',
+    facebook: 'https://www.facebook.com/profile.php?id=100055111167554',
+    description: 'Joint Secretary',
+  },
+  {
+    Timestamp: '2022-08-18T07:52:32.778Z',
+    email: 'f20221736@hyderabad.bits-pilani.ac.in',
+    name: 'Rehan Kuriance',
+    picture: '/static/members/rehan.jpg',
+    github: 'https://github.com/Clepenji',
+    linkedin: 'https://www.linkedin.com/in/aditya-gupta-994680229/',
+    facebook: 'https://www.facebook.com/profile.php?id=100076187603468',
+    description: 'Treasurer',
+  },
+  {
+    Timestamp: '8/18/2022 22:09:39',
+    email: 'f20220049@hyderabad.bits-pilani.ac.in',
+    name: 'Akshat Sinha',
+    picture: '/static/members/akshatSinha.jpg',
+    github: 'https://github.com/Xvilgator',
+    linkedin: 'https://www.linkedin.com/in/harshvardhan-goyal-22634b163/',
+    facebook: 'https://www.facebook.com/harshvardhan.goyal.777',
+    description: 'Management Head',
+  },
+]
+
 const PORs = [
   //update socials
   {
@@ -575,4 +649,4 @@ for (let a = 0; a < data.length; a++) {
   }
 }
 
-export { allMembersData, PORs, data }
+export { allMembersData, PORs, data, PORs24 }
